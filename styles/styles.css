@@ -115,3 +115,95 @@ footer {
     width: 100%;
     bottom: 0;
 }
+/* Proyectos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #213A58;
+    color: white;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav.navigation {
+    display: flex;
+}
+
+nav.navigation a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav.navigation a:hover {
+    text-decoration: underline;
+}
+
+.proyectos {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.proyecto-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.proyecto {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.proyecto:hover {
+    transform: scale(1.05);
+}
+
+.proyecto-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.proyecto-info {
+    margin-top: 15px;
+}
+
+.proyecto-info h3 {
+    margin: 10px 0;
+}
+
+.btn-proyecto {
+    padding: 8px 16px;
+    background-color: #213A58;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-proyecto:hover {
+    background-color: #213A58;
+}
