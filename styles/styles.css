@@ -207,3 +207,26 @@ nav.navigation a:hover {
 .btn-proyecto:hover {
     background-color: #213A58;
 }
+/* Habilidades */
+.habilidades {
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.habilidad-lista {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.habilidad-lista li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.habilidad {
+    font-weight: bold;
+    color: #213A58;
+}
